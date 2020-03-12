@@ -113,7 +113,7 @@ public class Robot extends TimedRobot {
 
     Launcher.rpmStatus(systemsController);
     
-    //Limelight.periodic();
+    Limelight.periodic();
 
      if (driverController.getRawButton(3)){
       Elevator.elevate();
